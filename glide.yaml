@@ -1,0 +1,28 @@
+package: github.com/subaru710/passmint
+import:
+- package: github.com/tendermint/tendermint
+  version: v0.23.0
+  subpackages:
+  - abci/example/code
+  - abci/server
+  - abci/types
+  - libs/common
+  - libs/db
+  - libs/log
+- package: github.com/gogo/protobuf
+  version: v1.1.0
+  subpackages:
+  - gogoproto
+  - jsonpb
+  - proto
+  - protoc-gen-gogo/descriptor
+  - sortkeys
+  - types
+- package: github.com/golang/protobuf
+  version: v1.1.0
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
